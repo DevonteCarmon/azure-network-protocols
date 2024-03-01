@@ -22,11 +22,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Ubuntu Server 20.04
 
 <h2>High-Level Steps</h2>
-
--  Pinged the Private Ip Address with the -t command for a perpetual ping 
+- Used 2 Virtual Machines for project 
+- Pinged the Private Ip Address of VM 2 with the ping -t command for a perpetual ping 
+- Went to the Network Security Group of VM 2 and changed the settings to deny icmp traffic 
+- Once the settings were changed the request from VM1 gets blocked by VM 2's firewall 
 - 
-- Step 3
-- Step 4
 <h2>Actions and Observations</h2>
 
 <p>
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a04QDwZ.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
