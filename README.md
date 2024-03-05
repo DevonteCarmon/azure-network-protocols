@@ -26,8 +26,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - After creating the virtual machines I'm going to login to VM-1 using the public IP Address through the Remote Desktop Protocol app  
 - Once I'm in the virtual machine I'm going to download the Wireshark application as you can see in the picture below 
 <h2>Actions and Observations</h2>
-
-- 
+- Here we have the WIreshark application being downloaded and installed 
 
 <p>
 <img src="https://i.imgur.com/cnCdmt6.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -36,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-
+ 
 <p>
 <img src="https://i.imgur.com/a04QDwZ.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -44,6 +43,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+- Ok here I'm using the ping command to test connectivity to VM-2 by pinging the private IP Address
+- And you can also see the traffic being filtered through icmp and both virtual machines communicating with each other
 
 <p>
 <img src="https://i.imgur.com/5qj4dBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
