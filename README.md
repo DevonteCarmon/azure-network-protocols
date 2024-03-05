@@ -43,6 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+- Here I'm going to filter traffic through icmp 
 - Ok here I'm using the ping command to test connectivity to VM-2 by pinging the private IP Address
 - And you can also see the traffic being filtered through icmp and both virtual machines communicating with each other
 
@@ -53,7 +54,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-
+- Here I use the ping IP Address -t command for a perpetual ping as you can see here 
+- Both virtual machines talking to each other and continually receiving packets 
 <p>
 <img src="https://i.imgur.com/5qj4dBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -61,7 +63,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-
+- Ok here I go into the network security group of VM-2 and block/deny access to the IP
+- Now the request has timed out and there's no reply from vm 2 because the firewall is blocking icmp traffic
 <p>
 <img src="https://i.imgur.com/5qj4dBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
