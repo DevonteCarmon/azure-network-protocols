@@ -19,6 +19,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Windows 10 (22H2)
 - Ubuntu Server 20.04
+- This is going to be a walkthrough presentation 
 
 <h2>High-Level Steps</h2>
 
@@ -72,8 +73,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-- Ok here I go into the network security group of VM-2 and block/deny access to the IP
-- Now the request has timed out and there's no reply from vm 2 because the firewall is blocking icmp traffic
+- Ok here I go back network security group of VM-2 and allow access to the IP
+- Now the request or getting replies and connectivity to the IP Address is being reached 
 <p>
 <img src="https://i.imgur.com/5qj4dBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -81,8 +82,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-- Ok here I go into the network security group of VM-2 and block/deny access to the IP
-- Now the request has timed out and there's no reply from vm 2 because the firewall is blocking icmp traffic
+- Ok now you can see the request or getting replies and connectivity to the IP Address is being reached
+
 <p>
 <img src="https://i.imgur.com/5qj4dBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
