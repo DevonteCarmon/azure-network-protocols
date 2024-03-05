@@ -22,12 +22,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Used 2 Virtual Machines for project 
-- Pinged the Private Ip Address of VM 2 with the ping -t command for a perpetual ping 
-- Went to the Network Security Group of VM 2 and changed the settings to deny icmp traffic 
-- Once the settings were changed the request from VM1 gets blocked by VM 2's firewall 
-
+- Using Azure I created two virtual machines one using Windows 10 (22H2) and the other Ubuntu Server 20.04
+- After creating the virtual machines I'm going to login to VM-1 using the public IP Address through the Remote Desktop Protocol app  
+- Once I'm in the virtual machine I'm going to download the Wireshark application as you can see in the picture below 
 <h2>Actions and Observations</h2>
+
+- 
 
 <p>
 <img src="https://i.imgur.com/cnCdmt6.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
